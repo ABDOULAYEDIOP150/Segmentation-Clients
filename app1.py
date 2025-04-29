@@ -19,8 +19,8 @@ st.markdown("Source : Wholesale customers dataset")
 # Chargement des données
 @st.cache_data
 def load_data():
-    url = 'Wholesale customers data'
-    return pd.read_csv(url)
+    return pd.read_csv("Wholesale customers data.csv")
+
 
 data = load_data()
 numeric_vars = ['Fresh', 'Milk', 'Grocery', 'Frozen', 'Detergents_Paper', 'Delicassen']
