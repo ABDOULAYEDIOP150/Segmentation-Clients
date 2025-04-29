@@ -19,7 +19,7 @@ st.markdown("Source : Wholesale customers dataset")
 # Chargement des données
 @st.cache_data
 def load_data():
-    url = 'https://raw.githubusercontent.com/JosueAfouda/Segmentation-de-client-le-dans-Python/main/Wholesale%20customers%20data.csv'
+    url = 'Wholesale customers data'
     return pd.read_csv(url)
 
 data = load_data()
